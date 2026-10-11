@@ -4,7 +4,7 @@
   2) Sua danh sach PRODUCTS ben duoi: ten, mo ta, gia, nhom, mau va icon.
   3) Gia chi la gia mau; kiem tra lai truoc khi cong khai.
 */
-const ZALO_URL = "https://zalo.me/"; // TODO: thay bang link Zalo cua shop
+const ZALO_URL = "https://zalo.me/g/kz5jvok4sxm9ekzcn2ml"; // TODO: thay bang link Zalo cua shop
 
 const PRODUCTS = [
   {id:"dem-1-10", name:"Tập đếm 1–10", description:"Làm quen số đếm qua hình ảnh đáng yêu.", category:"dem", icon:"🔢", color:"#dff3ff", pages:20, age:"3–5 tuổi", prices:{print:15000,pdf:10000}},
