@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Học liệu mầm non dễ thương: tập đếm, tô màu, tập viết và tư duy cho bé.">
+  <title>Bé Học Vui | Học liệu cho bé</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">🌷 Học vui mỗi ngày — học liệu nhỏ, niềm vui lớn!</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Bé Học Vui - Trang chủ">
+      <span class="brand-icon">🐻</span><span><strong>Bé Học Vui</strong><small>Học liệu cho bé 2–6 tuổi</small></span>
+    </a>
+    <nav aria-label="Điều hướng chính">
+      <a href="#home">Trang chủ</a><a href="#products">Sản phẩm</a><a href="#about">Giới thiệu</a><a href="#contact">Liên hệ</a>
+    </nav>
+    <button class="cart-button" id="open-cart" aria-label="Mở giỏ hàng">🛒 <span>Giỏ hàng</span> <b id="cart-count">0</b></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow">HỌC LIỆU MẦM NON</span>
+        <h1>Học vui — Lớn khôn<br><em>cùng con!</em></h1>
+        <p>Học liệu dễ thương giúp bé làm quen với con số, màu sắc, nét viết và tư duy qua những hoạt động nhỏ mỗi ngày.</p>
+        <a class="button primary" href="#products">Khám phá sản phẩm <span>→</span></a>
+        <div class="hero-notes"><span>🌈 Dễ hiểu, dễ chơi</span><span>🖍️ Hợp lứa tuổi mầm non</span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="sun">☀️</div><div class="rainbow">🌈</div>
+        <div class="book book-one">1 2 3<br><span>📘</span></div><div class="book book-two">A B C<br><span>📗</span></div>
+        <div class="bear">🧸</div><div class="pencil">✏️</div>
+        <div class="bubble bubble-one">Học thôi!</div><div class="bubble bubble-two">⭐</div>
+      </div>
+    </section>
+
+    <section class="category-strip" aria-label="Danh mục">
+      <button class="category active" data-filter="all"><span>🌟</span>Tất cả</button>
+      <button class="category" data-filter="dem"><span>🔢</span>Tập đếm</button>
+      <button class="category" data-filter="to-mau"><span>🖍️</span>Tô màu</button>
+      <button class="category" data-filter="tap-viet"><span>✏️</span>Tập viết</button>
+      <button class="category" data-filter="tu-duy"><span>🧩</span>Tư duy</button>
+    </section>
+
+    <section class="section" id="products">
+      <div class="section-heading"><div><span class="eyebrow">GÓC HỌC TẬP</span><h2>Sản phẩm dành cho bé</h2><p>Chọn bản in giao tận nơi hoặc file PDF gửi qua Zalo.</p></div><span class="heading-sticker">💗</span></div>
+      <div class="notice">💡 Giá và hình minh họa dưới đây là mẫu thử. Hãy sửa sản phẩm, giá và thông tin trước khi công khai website.</div>
+      <div class="product-grid" id="product-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="benefits" id="about">
+      <div><span class="benefit-icon">🌼</span><h3>Thiết kế thân thiện</h3><p>Màu sắc nhẹ nhàng, nội dung ngắn gọn, phù hợp các hoạt động cùng bé.</p></div>
+      <div><span class="benefit-icon">🖨️</span><h3>Bản in hoặc PDF</h3><p>Linh hoạt chọn bản giấy hoặc file số tùy nhu cầu của gia đình.</p></div>
+      <div><span class="benefit-icon">💬</span><h3>Đặt hàng qua Zalo</h3><p>Website soạn sẵn nội dung đơn để bạn kiểm tra và gửi cho shop qua Zalo.</p></div>
+    </section>
+
+    <section class="how-to">
+      <div class="how-art" aria-hidden="true">📚<span>✨</span><span>🌷</span></div>
+      <div><span class="eyebrow">3 BƯỚC ĐƠN GIẢN</span><h2>Chọn học liệu, shop hỗ trợ phần còn lại</h2><ol><li>Chọn sản phẩm và định dạng bản in hoặc PDF.</li><li>Thêm vào giỏ hàng, nhập thông tin liên hệ.</li><li>Nhấn “Gửi đơn qua Zalo” và gửi tin nhắn đã soạn sẵn cho shop.</li></ol></div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div><span class="eyebrow">KẾT NỐI VỚI SHOP</span><h2>Cùng bé học vui mỗi ngày 💌</h2><p>Thay đường dẫn Zalo mẫu bằng đường dẫn tài khoản bán hàng của bạn trong file <code>script.js</code>.</p></div>
+      <a class="button secondary" id="contact-zalo" href="https://zalo.me/" target="_blank" rel="noopener">Mở Zalo ↗</a>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-icon">🐻</span><strong>Bé Học Vui</strong></a><p>Học liệu nhỏ xinh cho hành trình lớn khôn của bé.</p><small>© <span id="year"></span> Bé Học Vui · Mẫu website miễn phí</small></footer>
+
+  <div class="modal-backdrop" id="cart-modal" hidden>
+    <section class="cart-panel" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+      <div class="panel-heading"><div><span class="eyebrow">GIỎ HÀNG CỦA BẠN</span><h2 id="cart-title">Giỏ hàng 🛍️</h2></div><button class="icon-button" id="close-cart" aria-label="Đóng giỏ hàng">✕</button></div>
+      <div id="cart-items" class="cart-items"></div>
+      <div class="cart-empty" id="cart-empty">Giỏ hàng đang trống 🌷<br><a href="#products" id="browse-products">Chọn học liệu ngay</a></div>
+      <div class="cart-summary" id="cart-summary" hidden>
+        <div><span>Tạm tính</span><strong id="subtotal">0₫</strong></div>
+        <p class="shipping-note">Phí giao bản in sẽ được shop xác nhận qua Zalo. File PDF không tính phí vận chuyển.</p>
+        <div class="grand-total"><span>Tổng tiền sản phẩm</span><strong id="grand-total">0₫</strong></div>
+        <button class="button primary full" id="go-checkout">Tiếp tục đặt hàng →</button>
+      </div>
+    </section>
+  </div>
+
+  <div class="modal-backdrop" id="checkout-modal" hidden>
+    <section class="checkout-panel" role="dialog" aria-modal="true" aria-labelledby="checkout-title">
+      <div class="panel-heading"><div><span class="eyebrow">SẮP HOÀN TẤT</span><h2 id="checkout-title">Thông tin đặt hàng</h2></div><button class="icon-button" id="close-checkout" aria-label="Đóng">✕</button></div>
+      <p class="form-intro">Điền thông tin để tạo nội dung đơn hàng. Website không tự thu tiền hoặc tự lưu đơn trên máy chủ.</p>
+      <form id="checkout-form">
+        <label>Họ tên <input name="name" autocomplete="name" required maxlength="80" placeholder="Ví dụ: Nguyễn Minh Anh"></label>
+        <label>Số điện thoại <input name="phone" autocomplete="tel" required inputmode="tel" maxlength="20" placeholder="Số điện thoại liên hệ"></label>
+        <label>Địa chỉ nhận bản in <textarea name="address" rows="2" maxlength="250" placeholder="Bắt buộc nếu chọn bản in"></textarea></label>
+        <label>Ghi chú <textarea name="note" rows="2" maxlength="300" placeholder="Ví dụ: giao giờ hành chính"></textarea></label>
+        <div class="order-preview"><strong>Đơn hàng dự kiến</strong><div id="checkout-order-lines"></div><div class="preview-total">Tổng tiền sản phẩm: <strong id="checkout-total">0₫</strong></div></div>
+        <button class="button primary full" type="submit">Tạo đơn và mở Zalo 💬</button>
+      </form>
+      <div class="send-fallback" id="send-fallback" hidden>
+        <p><strong>Nội dung đơn hàng đã được tạo.</strong> Nếu tin nhắn chưa được sao chép tự động, hãy sao chép nội dung trong ô dưới đây rồi dán vào cuộc trò chuyện Zalo với shop.</p>
+        <textarea id="order-message" rows="9" readonly></textarea>
+        <button class="button secondary full" id="copy-message" type="button">Sao chép nội dung đơn</button>
+        <a class="button primary full" id="open-zalo-final" href="https://zalo.me/" target="_blank" rel="noopener">Mở Zalo để gửi đơn ↗</a>
+      </div>
+      <p class="privacy-note">Thông tin bạn nhập chỉ được dùng để soạn tin nhắn trong trình duyệt; hãy tự kiểm tra trước khi gửi.</p>
+    </section>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
